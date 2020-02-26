@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_xl"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvShopName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shop Name"
+            android:textSize="14sp"/>
+
+        <RatingBar
+            android:id="@+id/rating"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_sm"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_xl"
+            android:gravity="center_horizontal" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edtShopName"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_addeditshop_btn_round"
+        android:imeOptions="actionDone"
+        android:paddingLeft="15dp"
+        android:textColor="@color/grey_dark"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_lg"
+        android:text="Photo"
+        android:textSize="14sp"/>
+
+
+
+
+</LinearLayout>
